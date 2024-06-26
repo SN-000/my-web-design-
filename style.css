@@ -43,10 +43,14 @@ body {
 
 .cta a {
     text-decoration: none;
-    background-color: #007BFF;
+    background-color: #969393;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
+    transition: .5s;
+}
+.cta a:hover{
+    background-color: #007BFF;
 }
 
 .testimonial {
